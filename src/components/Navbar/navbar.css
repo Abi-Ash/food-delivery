@@ -111,6 +111,10 @@
 
 @media screen and (max-width: 750px) {
 
+    .navbar .logo {
+        width: 100px;
+    }
+
     .navbar-menu {
         display: none;
     }
