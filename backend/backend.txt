@@ -1,0 +1,18 @@
+1. Create a folder backend
+2. Open terminal in that folder
+3. Give command - npm init
+4. Give entry point name as server.js which is our backend file name.
+5.Then the package.json file wil be initialized.
+6. Installing dependencies - npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer stripe validator nodemon
+
+6.1. express - http web server
+6.2. mongoose - help us to connect with the database
+6.3. jsonwebtoken - using this we will creating the authentication system
+6.4. bcrypt - using this we will encrypt the users data and store in the database
+6.5. cors - using this we can give the permission to our frontend to connect with the backend
+6.6. dotenv - using this we can use the environment variable in our project
+6.7. body-parser - using this we will parse the data coming through the user
+6.8. multer - using multer we can  create the images store system
+6.9. stripe - we will add the payment gateways on the webpage
+6.10. validator - we will check the password or email id is valid or not
+6.11. nodemon - when we save our project the server will be restarted
