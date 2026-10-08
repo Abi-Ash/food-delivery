@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 //placing user order from frontned
 const placeOrder = async (req, res) => {
 
-    const frontned_url = "http://localhost:5174"
+    const frontned_url = "https://foodadminpanel.netlify.app/"
 
     try {
         const newOrder = new orderModel({
